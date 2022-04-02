@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Yoga For Fitness</title>
+	</head>
+	<link
+		rel="stylesheet"
+		href="https://fonts.google.com/specimen/Baloo+Paaji+2?query=bal"
+	/>
+	<link rel="stylesheet" href="css/style.css" />
+	<style>
+		body {
+			font-family: "Baloo Paaji", cursive;
+			color: white;
+			margin: 0px;
+			padding: 0px;
+			background: url("img/sunsetyoga.jpg");
+			height: 4544px;
+		}
+		.left {
+			display: inline-block;
+			position: absolute;
+			left: 10px;
+			top: 20px;
+			/*border: 2px solid green;*/
+		}
+		.left img {
+			width: 85px;
+			filter: invert(100%);
+		}
+		.left div {
+			text-align: center;
+			line-height: 10px;
+			font-size: 15px;
+		}
+		.mid {
+			display: block;
+			width: 30%;
+			margin: 20px auto;
+			/*border: 2px solid red;*/
+		}
+		.right {
+			position: absolute;
+			right: 34px;
+			top: 20px;
+			display: inline-block;
+			/*border: 2px solid yellow;*/
+			margin: 1px 1px;
+		}
+		.navbar {
+		}
+		.navbar li {
+			display: inline;
+			font-size: 12px;
+		}
+		.navbar li a {
+			color: white;
+			text-decoration: none;
+			padding: 15px;
+		}
+		.navbar li a:hover,
+		.navbar li a.active {
+			text-decoration: underline;
+			color: grey;
+		}
+		.btn {
+			font-family: "Baloo Paaji", cursive;
+			margin: 3px 13px;
+			background-color: black;
+			color: white;
+			padding: 3px 2px;
+			border-radius: 10px;
+			border: 2px solid grey;
+			font-size: 10px;
+			cursor: pointer;
+		}
+		.btn:hover {
+			background-color: red;
+		}
+		.container {
+			border: 2px solid white;
+			margin: 53px 720px;
+			padding: 10px 41px;
+			width: 30%;
+			border-radius: 26px;
+		}
+		.from-group input {
+			font-family: "Baloo Paaji", cursive;
+			text-align: center;
+			display: block;
+			width: 285px;
+			padding: 14px;
+			border-radius: 2px solid black;
+			margin: 2px auto;
+			font-size: 10px;
+			border-radius: 12px;
+		}
+		.container h2 {
+			text-align: center;
+		}
+		.container button {
+			display: block;
+			width: 87%;
+			margin: 5px auto;
+		}
+	</style>
+
+	<body>
+		<header class="header">
+			<!-- Left boc for logo -->
+			<div class="left">
+				<img src="img/logo.jpg" alt="" />
+				<div>Yoga Fitness</div>
+			</div>
+
+			<!-- mid box for navbar -->
+			<div class="mid">
+				<ul class="navbar">
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Yoga Type</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+
+			<!-- Right box for button -->
+			<div class="right">
+				<button class="btn">Call Us Now</button>
+				<button class="btn">Email Us</button>
+			</div>
+		</header>
+		<div class="container">
+			<h2>Join The Best Yoga Of India</h2>
+			<form action="noaction.php">
+				<div class="from-group">
+					<input type="text" name="" placeholder="Enter your name" />
+				</div>
+				<div class="from-group">
+					<input type="text" name="" placeholder="Enter Your Age" />
+				</div>
+				<div class="from-group">
+					<input type="text" name="" placeholder="Enter your Gender" />
+				</div>
+				<div class="from-group">
+					<input type="text" name="" placeholder="Enter your Locality" />
+				</div>
+				<div class="from-group">
+					<input type="text" name="" placeholder="Enter your Phone" />
+				</div>
+				<div class="from-group">
+					<input type="text" name="" placeholder="Enter your Mail Id" />
+				</div>
+				<button class="btn">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>
