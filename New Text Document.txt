@@ -1,0 +1,11 @@
+cd <folder path>
+touch .gitignore
+git config --global user.emil "shekhar4520@gmsil.com"
+git init
+git add
+git commit -m "Initial Commit"
+git status  # Just to see
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+tail <path to id_rsa.pub>  # Add this key to github
+git remove add orign <ssh url.git>
+git push original master
